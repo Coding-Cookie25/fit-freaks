@@ -1,6 +1,6 @@
 Absolutely! Here's the **final version** that you can **directly copy-paste into your `README.md`** file:
 
-markdown
+```markdown
 # 🏋️‍♂️ FitFreaks Gym Management System
 
 FitFreaks is a **Java + Swing** based Gym Management System designed for an interactive and user-friendly desktop application experience. This project serves as a beginner-level gym management solution, helping users manage login/signup, BMI calculations, and trainer data.
@@ -39,7 +39,7 @@ FitFreaks is a **Java + Swing** based Gym Management System designed for an inte
 
 ## 📁 Project Structure
 
-
+```
 FitFreaks/
 │
 ├── src/
@@ -57,7 +57,7 @@ FitFreaks/
 │
 ├── README.md
 └── fitfreaks.sql (Database schema)
-
+```
 
 ---
 
@@ -106,5 +106,6 @@ Make sure you have a MySQL database named `fitfreaks` with the following essenti
 ## 📃 License
 
 This project is open source and available under the [MIT License](LICENSE).
+```
 
 Let me know if you want a `.md` file version or need help generating `fitfreaks.sql` too!
