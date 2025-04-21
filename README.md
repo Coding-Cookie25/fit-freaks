@@ -88,6 +88,7 @@ Make sure you have a MySQL database named `fitfreaks` with the following essenti
 
 ## ✨ Future Improvements
 
+-Maintaining user login sessions
 - Gym subscription plans
 - Calorie tracker
 - Trainer edit/delete functionality
@@ -97,9 +98,10 @@ Make sure you have a MySQL database named `fitfreaks` with the following essenti
 ---
 
 ## 👥 Authors
-
-- Your Name  
-- Collaborator Name (if any)
+---Christ University---
+- Anshika Madan(24215009) 
+- Anam(2421007)
+-Chirag dhama(24215017)
 
 ---
 
