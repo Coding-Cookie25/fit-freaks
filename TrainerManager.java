@@ -5,6 +5,7 @@ import model.Trainer;
 import connection.connection;
 
 import java.sql.*;
+import java.util.List;
 
 public class TrainerManager implements ItrainerManager {
 
@@ -33,7 +34,6 @@ public class TrainerManager implements ItrainerManager {
             System.out.println("❌ Error adding trainer: " + e.getMessage());
         }
     }
-
     @Override
     public void updateTrainer(int id, String name, String specialization) {
         String sql = "UPDATE trainers SET name = ?, specialization = ? WHERE trainer_id = ?";
@@ -109,4 +109,9 @@ public class TrainerManager implements ItrainerManager {
         }
         return null;
     }
+	@Override
+	public List<Trainer> getAllTrainers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
