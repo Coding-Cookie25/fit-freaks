@@ -1,6 +1,6 @@
 import Service.AuthService;
 import Service.BMICalculator;
-import Service.TrainerManager;
+import Service.TrainerManagerImp1;
 import Interface.IAuthService;
 import Interface.ItrainerManager;
 import model.Trainer;
@@ -19,7 +19,7 @@ public class GymAppGUI extends JFrame {
 
     public GymAppGUI() {
         authService = new AuthService();
-        trainerManager = new TrainerManager();
+        trainerManager = new TrainerManagerImp1();
         initializeUI();
     }
 
